@@ -1,0 +1,14 @@
+Code Book
+
+For the provided UCI HAR Dataset the following vars are set from run_analysis.R.  See the [README](README.md) for additional details.
+
+Tidy Mean
+
+A data.table named `tidy.mean` is set with the following columns.  All units are maintained from the original data set. A file named tidy.mean.txt is written from run_analysis.R.
+
+General Principle for Tidy Data:
+
+-Each variable you measure should be in one column
+-Each different observation of that variable should be in a different row
+-There should be one table for each "kind" of variable
+-If you have multiple tables, they should include a column in the table that allows them to be linked
